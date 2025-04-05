@@ -1,0 +1,484 @@
+*{
+    margin-left: 3px;
+    margin-right: 3px; 
+    border : border-box;
+
+} 
+
+
+body{
+    /* background-color: #C68EFD; */
+    background-color: #FED2E2;
+} 
+
+.navbar{
+    width: 100%;
+    height: 65px;
+    background-color: #8F87F1;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    border-radius: 5px;
+}
+
+.logo{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name{
+    width: 40%;
+    height: 100%;
+    color: #001F3F;
+    /* display: flex;
+    
+    font-family: Brush Script;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+.options{
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.xyz:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.quote{
+    width: 100%; 
+    height: 500px; 
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    background-image: url("books/quote.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.hero{
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.book{
+    width: 18%;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.book:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.more{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(5, 14, 5);
+    border: none;
+    border-radius: 30px;
+    background-color: #8F87F1;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 15px; 
+    padding: 0%;
+} 
+
+.foot-panel1 {
+    background-color:transparent;
+    color: black;
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 70px;
+    /* padding-left: 100px; */
+}
+
+.foot-panel2 {
+    background-color: rgb(48, 45, 45);
+    color: white;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+    color: white;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+
+.pages {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    /* background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat; */
+  }
+  
+  .responsive-container-block.Container {
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-left: auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .text-blk.heading {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+  
+  .text-blk.subHeading {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+  
+  .socialIcon {
+    width: 33px;
+    height: 33px;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .social-icon {
+    margin: 0 50px 0 50px;
+  }
+  
+  .social-icon:hover {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .text-blk.heading {
+      font-size: 55px;
+      line-height: 65px;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .socialIcon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .text-blk.subHeading {
+      line-height: 27px;
+    }
+  
+    .text-blk.heading {
+      font-size: 32px;
+      line-height: 40px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+  
+    .social-icon {
+      margin: 0 25px 0 25px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .responsive-container-block.bigContainer {
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+    }
+  
+    .text-blk.heading {
+      font-size: 45px;
+      line-height: 55px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 14px;
+      line-height: 22px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+    }
+  
+    .social-icons-container {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 16px;
+      line-height: 23px;
+    }
+  
+    .text-blk.heading {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  
+    .social-icon {
+      margin: 0 20px 0 20px;
+    }
+  }
+
+
+.law{
+  background-image: url("books/download.jpeg");
+  background-size: cover;
+}
+
+.self1{
+  background-image: url("books/magic.jpeg");
+  background-size: cover;
+}
+
+.self2{
+  background-image: url("books/deep.jpg");
+  background-size: cover;
+}
+
+.self3{
+  background-image: url("books/frog.jpeg");
+  background-size: cover;
+}
+
+.self4{
+  background-image: url("books/ikigai.jpeg");
+  background-size: cover;
+}
+
+.self5{
+  background-image: url("books/sub.jpeg");
+  background-size: cover;
+}
+
+.bio1{
+  background-image: url("books/gate.jpeg");
+  background-size: cover;
+}
+
+.bio2{
+  background-image: url("books/elon.jpeg");
+  background-size: cover;
+}
+
+.bio3{
+  background-image: url("books/job.jpeg");
+  background-size: cover;
+}
+
+.bio4{
+  background-image: url("books/mark.jpeg");
+  background-size: cover;
+}
+
+.bio5{
+  background-image: url("books/swami.jpeg");
+  background-size: cover;
+}
+
+.hum1{
+  background-image: url("books/dislike.jpeg");
+  background-size: cover;
+}
+
+.hum2{
+  background-image: url("books/human.jpeg");
+  background-size: cover;
+}
+
+.hum3{
+  background-image: url("books/surrounded.jpeg");
+  background-size: cover;
+}
+
+.hum4{
+  background-image: url("books/nice.jpeg");
+  background-size: cover;
+}
+
+.hum5{
+  background-image: url("books/seduction.jpeg");
+  background-size: cover;
+}
+
+.fin1{
+  background-image: url("books/fin1.jpeg");
+  background-size: cover;
+}
+
+.fin2{
+  background-image: url("books/fin2.jpeg");
+  background-size: cover;
+}
+
+.fin3{
+  background-image: url("books/fin3.jpeg");
+  background-size: cover;
+}
+
+.fin4{
+  background-image: url("books/fin4.jpeg");
+  background-size: cover;
+}
+
+.fin5{
+  background-image: url("books/fin5.jpeg");
+  background-size: cover;
+}
+
+.oth1{
+  background-image: url("books/oth1.jpeg");
+  background-size: cover;
+}
+
+.oth2{
+  background-image: url("books/oth2.jpeg");
+  background-size: cover;
+}
+
+.oth3{
+  background-image: url("books/oth3.jpeg");
+  background-size: cover;
+}
+
+.oth4{
+  background-image: url("books/oth4.jpeg");
+  background-size: cover;
+}
+
+.oth5{
+  background-image: url("books/oth5.jpeg");
+  background-size: cover;
+}
